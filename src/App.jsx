@@ -4,9 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  const [mensaje,setMensaje] = useState("Ericsito es lo maximo")
   return (
     <div>
-      <h1>Josecito y xi ping son AMIGAZOS</h1>
+      <h1>{mensaje}</h1>
     </div>
   );
 }
